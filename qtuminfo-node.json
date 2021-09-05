@@ -14,14 +14,14 @@
   "servicesConfig": {
     "db": {
       "mysql": {
-        "uri": "mysql://qtum@localhost/qtum_mainnet"
+        "uri": "mysql://eqpay_mainnet:eqpay1234@localhost/eqpay_mainnet"
       },
       "rpc": {
         "protocol": "http",
         "host": "localhost",
-        "port": 3889,
-        "user": "user",
-        "password": "password"
+        "port": 9999,
+        "user": "eqpay",
+        "password": "eqpay1234"
       }
     },
     "p2p": {
@@ -30,7 +30,7 @@
           "ip": {
             "v4": "127.0.0.1"
           },
-          "port": 3888
+          "port": 9998
         }
       ]
     },
