@@ -120,7 +120,8 @@ const callspec = {
   getstorage: '',
   gettransactionreceipt: '',
   listcontracts: 'int int',
-  sendrawtransaction: ''
+  sendrawtransaction: '',
+  getstakinginfo: ''
 }
 
 function getRandomId() {
